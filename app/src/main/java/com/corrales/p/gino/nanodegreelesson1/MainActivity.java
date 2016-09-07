@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /** Called when the user touches the button */
-    public void sendMessage1(View view) {
+    public void sendMessageButton1(View view) {
         // Do something in response to button click
         Context context = getApplicationContext();
         CharSequence text = "This button will launch my Popular Movies app!";
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
     }
-    public void sendMessage2(View view) {
+    public void sendMessageBUtton2(View view) {
         // Do something in response to button click
         Context context = getApplicationContext();
         CharSequence text = "This button will launch my Stock Hawk app!";
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
     }
-    public void sendMessage3(View view) {
+    public void sendMessageButton3(View view) {
         // Do something in response to button click
         Context context = getApplicationContext();
         CharSequence text = "This button will launch my Built it Bigger app!";
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
     }
-    public void sendMessage4(View view) {
+    public void sendMessageButton4(View view) {
         // Do something in response to button click
         Context context = getApplicationContext();
         CharSequence text = "This button will launch my Make Your App Material app!";
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
     }
-    public void sendMessage5(View view) {
+    public void sendMessageButton5(View view) {
         // Do something in response to button click
         Context context = getApplicationContext();
         CharSequence text = "This button will launch my Go Ubiquitous app!";
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
     }
-    public void sendMessage6(View view) {
+    public void sendMessageButton6(View view) {
         // Do something in response to button click
         Context context = getApplicationContext();
         CharSequence text = "This button will launch my Capstone app!";
